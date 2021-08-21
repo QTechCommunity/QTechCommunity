@@ -2268,7 +2268,7 @@ a {
     white-space: normal;
 }
 
-.Section.Center {
+.Section.StartPage {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2287,6 +2287,11 @@ a {
     background-color: #cf0063;
     background-image: linear-gradient(330deg, #ffd500, #e64d00);
     box-shadow: 0 0 10px 0 #000;
+}
+
+.Section.StartPage.BubbleBlaster {
+    background-color: #cf0063;
+    background-image: linear-gradient(0deg, #0080FF, #66CBFF);
 }
 
 .Section.column {
@@ -2872,6 +2877,26 @@ a {
     /*background-color: #ffd500;*/
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ProjectIcon.Head {
+    max-height: 192px;
+    max-width: 192px;
+    min-height: 192px;
+    min-width: 192px;
+    margin-bottom: -20px !important;
+    margin-left: -20px !important;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.NoShadow {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .DivBlock-7 {
@@ -3642,6 +3667,24 @@ a {
     user-select: none;
 }
 
+.ProjectButton.Beta {
+    border-color: #f33;
+}
+
+.ProjectButton.Beta:hover {
+    border-color: #f33;
+    color: #f33;
+}
+
+.ProjectButton.Beta:active {
+    background-color: #f33;
+    color: #000;
+}
+
+.ProjectButton.Wide {
+    width: calc(100%);
+}
+
 .ProjectButton:hover {
     border-color: #ffd500;
     color: #ffd500;
@@ -4183,7 +4226,7 @@ a {
         justify-content: center;
     }
 
-    .Section.Center {
+    .Section.StartPage {
         height: 100vh;
         padding-bottom: 10vh;
     }
@@ -4395,8 +4438,8 @@ a {
 
 /*noinspection CssOverwrittenProperties*/
 *::selection {
-    background: #ffd500 !important;
-    color: #3f3f3f !important;
+    background: #fff7 !important;
+    color: #0007 !important;
 }
 
 .BrandFont {
