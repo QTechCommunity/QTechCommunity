@@ -4398,3 +4398,12 @@ a {
     background: #ffd500 !important;
     color: #3f3f3f !important;
 }
+
+.BrandFont {
+    font-family: Quantum, Exo, sans-serif;
+    font-weight: 400;
+}
+
+img {
+    -webkit-user-drag: none;
+}
