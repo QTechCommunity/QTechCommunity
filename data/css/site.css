@@ -13,3 +13,7 @@
     transform: translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
     opacity: 0
 }
+
+body {
+    --version-data-css-site: "2021.8.22.15.31"
+}

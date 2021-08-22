@@ -1952,8 +1952,8 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-nav-link.w--current {
-    color: #ffd500;
-    border-bottom: solid 1px #ffd500;
+    color: var(--accent-color);
+    border-bottom: solid 1px var(--accent-color);
 }
 
 .w-nav-menu {
@@ -2285,13 +2285,13 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
     background-color: #cf0063;
-    background-image: linear-gradient(330deg, #ffd500, #e64d00);
+    background-image: linear-gradient(var(--gradient-rotation), var(--gradient-secondary), var(--gradient-primary));
     box-shadow: 0 0 10px 0 #000;
 }
 
 .Section.StartPage.BubbleBlaster {
-    background-color: #cf0063;
-    background-image: linear-gradient(0deg, #0080FF, #66CBFF);
+    /*background-color: #cf0063;*/
+    /*background-image: linear-gradient(0deg, #0080FF, #66CBFF);*/
 }
 
 .Section.column {
@@ -2674,11 +2674,11 @@ a {
 
 .button:hover {
     background-color: #444;
-    color: #ffd500;
+    color: var(--accent-color);
 }
 
 .button:active {
-    background-color: #ffd500;
+    background-color: var(--accent-color);
     color: #222;
 }
 
@@ -2872,9 +2872,9 @@ a {
     flex: 0 0 auto;
     /*border-style: solid;*/
     /*border-width: 0;*/
-    /*border-color: #ffd500;*/
+    /*border-color: var(--accent-color);*/
     border-radius: 50ch;
-    /*background-color: #ffd500;*/
+    /*background-color: var(--accent-color);*/
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -3089,12 +3089,12 @@ a {
 }
 
 .navlink:hover {
-    color: #ffd500;
+    color: var(--accent-color);
 }
 
 .navlink:active {
     display: inline-block;
-    background-color: #ffd500;
+    background-color: var(--accent-color);
     color: #222;
 }
 
@@ -3215,7 +3215,7 @@ a {
 .ProjectName {
     background-color: transparent;
     font-family: Exo, sans-serif;
-    color: #ffd500;
+    color: var(--accent-color);
 }
 
 .HeroContent {
@@ -3301,7 +3301,7 @@ a {
 
 .Black {
     font-family: Verdana, Geneva, sans-serif;
-    color: #ffd500;
+    color: var(--accent-color);
     text-transform: none;
 }
 
@@ -3380,7 +3380,7 @@ a {
 }
 
 .Footer-Link:hover {
-    color: #ffd500;
+    color: var(--accent-color);
 }
 
 .Footer-List {
@@ -3561,7 +3561,7 @@ a {
     padding: 15px;
     border-style: solid;
     border-width: 1px;
-    border-color: #ffd500;
+    border-color: var(--accent-color);
     background-color: #333;
     color: #aaa;
     line-height: 24px;
@@ -3686,12 +3686,12 @@ a {
 }
 
 .ProjectButton:hover {
-    border-color: #ffd500;
-    color: #ffd500;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .ProjectButton:active {
-    background-color: #ffd500;
+    background-color: var(--accent-color);
     color: #444;
 }
 
@@ -3704,7 +3704,7 @@ a {
 .PasswordInput {
     border-style: solid;
     border-width: 1px;
-    border-color: #ffd500;
+    border-color: var(--accent-color);
     background-color: #333;
     color: #aaa;
 }
@@ -3787,7 +3787,7 @@ a {
 
 .BrandText:hover {
     background-color: rgba(255, 213, 0, 0);
-    color: #ffd500;
+    color: var(--accent-color);
 }
 
 .GradientButton {
@@ -3824,12 +3824,12 @@ a {
 
 .GradientButton:hover {
     background-color: #444;
-    color: #ff8000;
+    color: var(--accent-color-alt);
 }
 
 .GradientButton:active {
     background-color: #555;
-    color: #ff8000;
+    color: var(--accent-color-alt);
 }
 
 .GradientButton.outline {
@@ -4449,4 +4449,8 @@ a {
 
 img {
     -webkit-user-drag: none;
+}
+
+body {
+    --version-data-css-main: "2021.8.22.15.31"
 }

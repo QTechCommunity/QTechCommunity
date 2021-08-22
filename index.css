@@ -1,0 +1,11 @@
+:root {
+    --accent-color: #ffd500;
+    --accent-color-alt: #ff8000;
+    --gradient-rotation: 330deg;
+    --gradient-primary: #e64d00;
+    --gradient-secondary: #ffd500;
+}
+
+:root {
+    --version-index: "2021.8.22.15.31"
+}
