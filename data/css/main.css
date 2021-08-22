@@ -4548,6 +4548,10 @@ img {
     display: none;
 }
 
+body p:last-child {
+    display: none;
+}
+
 body {
-    --version-data-css-main: "2021.8.22.22.30"
+    --version-data-css-main: "2021.8.22.23.52"
 }
