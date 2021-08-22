@@ -16,18 +16,18 @@ let versions = {
     },
     index: window.getComputedStyle(document.body).getPropertyValue("--version-index").trim(" ").slice(1,-1)
 };
-let expectedVersions = {
-    data: {
-        css: {
-            main: "2021.8.22.19.03",
-            site: "2021.8.22.19.03"
-        }
-    },
-    downloads: {
-        bubble_blaster: "2021.8.22.19.03"
-    },
-    index: "2021.8.22.19.03"
-};
+// let expectedVersions = {
+//     data: {
+//         css: {
+//             main: "2021.8.22.19.03",
+//             site: "2021.8.22.19.03"
+//         }
+//     },
+//     downloads: {
+//         bubble_blaster: "2021.8.22.19.03"
+//     },
+//     index: "2021.8.22.19.03"
+// };
 
 console.log("Current versions: ", versions)
 console.log("Expected versions: ", expectedVersions)
