@@ -35,28 +35,36 @@ console.log("Expected versions: ", expectedVersions)
 let beingRebuilt = false;
 
 if (RebuildConstants.REBUILD_MESSAGE_OVERRIDE === undefined || !(typeof(RebuildConstants.REBUILD_MESSAGE_OVERRIDE) === "boolean")) {
-    if (versions.data.css.main === expectedVersions.data.css.main) {
+    if (versions.data.css.main.length === 0) {
+        console.log("Version is not available (data/css/main):", versions.data.css.main)
+    } else if (versions.data.css.main === expectedVersions.data.css.main) {
         console.log("Versions are the same (data/css/main): ", versions.data.css.main, expectedVersions.data.css.main)
     } else {
         console.log("Versions are different (data/css/main): ", versions.data.css.main, expectedVersions.data.css.main)
         beingRebuilt = true;
     }
 
-    if (versions.data.css.site === expectedVersions.data.css.site) {
+    if (versions.data.css.site.length === 0) {
+        console.log("Version is not available (data/css/site):", versions.data.css.site)
+    } else if (versions.data.css.site === expectedVersions.data.css.site) {
         console.log("Versions are the same (data/css/site): ", versions.data.css.site, expectedVersions.data.css.site)
     } else {
         console.log("Versions are different (data/css/site): ", versions.data.css.site, expectedVersions.data.css.site)
         beingRebuilt = true;
     }
 
-    if (versions.downloads.bubble_blaster === expectedVersions.downloads.bubble_blaster) {
-        console.log("Versions are the same (Downloads/BubbleBlaster): ", versions.downloads.bubble_blaster, expectedVersions.downloads.bubble_blaster)
+    if (versions.downloads.bubble_blaster.length === 0) {
+        console.log("Version is not available (Downloads/BubbleBlaster):", versions.downloads.bubble_blaster)
+    } else if (versions.downloads.bubble_blaster === expectedVersions.downloads.bubble_blaster) {
+        console.log("Versions are the same (Downloads/BubbleBlaster):", versions.downloads.bubble_blaster, expectedVersions.downloads.bubble_blaster)
     } else {
-        console.log("Versions are different (Downloads/BubbleBlaster): ", versions.downloads.bubble_blaster, expectedVersions.downloads.bubble_blaster)
-        // beingRebuilt = true;
+        console.log("Versions are different (Downloads/BubbleBlaster):", versions.downloads.bubble_blaster, expectedVersions.downloads.bubble_blaster)
+        beingRebuilt = true;
     }
 
-    if (versions.index === expectedVersions.index) {
+    if (versions.index.length === 0) {
+        console.log("Version is not available (index):", versions.index)
+    } else if (versions.index === expectedVersions.index) {
         console.log("Versions are the same (index): ", versions.index, expectedVersions.index)
     } else {
         console.log("Versions are different (index): ", versions.index, expectedVersions.index)
