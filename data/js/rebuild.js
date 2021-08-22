@@ -1,5 +1,5 @@
 RebuildConstants = {
-    REBUILD_MESSAGE_OVERRIDE: true
+    REBUILD_MESSAGE_OVERRIDE: undefined
 }
 
 // noinspection JSCheckFunctionSignatures
@@ -19,14 +19,14 @@ let versions = {
 let expectedVersions = {
     data: {
         css: {
-            main: "2021.8.22.15.31",
-            site: "2021.8.22.15.31"
+            main: "2021.8.22.19.03",
+            site: "2021.8.22.19.03"
         }
     },
     downloads: {
-        bubble_blaster: "2021.8.22.15.31"
+        bubble_blaster: "2021.8.22.19.03"
     },
-    index: "2021.8.22.15.31"
+    index: "2021.8.22.19.03"
 };
 
 console.log("Current versions: ", versions)
