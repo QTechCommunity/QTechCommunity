@@ -3098,7 +3098,6 @@ a {
 }
 
 .navlink:active {
-    display: inline-block;
     background-color: var(--accent-color);
     color: #222;
 }
