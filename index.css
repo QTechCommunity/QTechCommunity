@@ -1,11 +1,11 @@
 :root {
-    --accent-color: #ffd500;
-    --accent-color-alt: #ff8000;
+    --accent-color: #ff7f00;
+    --accent-color-alt: #dfaf30;
     --gradient-rotation: 330deg;
     --gradient-primary: #e64d00;
     --gradient-secondary: #ffd500;
 }
 
 :root {
-    --version-index: "2021.8.22.19.03"
+    --version-index: "2022.22.5.17.15"
 }

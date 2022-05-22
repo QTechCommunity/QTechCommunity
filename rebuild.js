@@ -20,13 +20,13 @@ let versions = {
 //     data: {
 //         css: {
 //             main: "2021.8.22.23.52",
-//             site: "2021.8.22.19.03"
+//             site: "2022.5.22.17.15"
 //         }
 //     },
 //     downloads: {
-//         bubble_blaster: "2021.8.22.19.03"
+//         bubble_blaster: "2022.5.22.17.15"
 //     },
-//     index: "2021.8.22.19.03"
+//     index: "2022.5.22.17.15"
 // };
 
 console.log("Current versions: ", versions)

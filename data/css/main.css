@@ -2285,8 +2285,8 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-color: #cf0063;
-    background-image: linear-gradient(var(--gradient-rotation), var(--gradient-secondary), var(--gradient-primary));
+    background-color: #444;
+/*    background-image: linear-gradient(var(--gradient-rotation), var(--gradient-secondary), var(--gradient-primary));*/
     box-shadow: 0 0 10px 0 #000;
 }
 
@@ -2865,31 +2865,27 @@ a {
 }
 
 .ProjectIcon {
-    max-height: 192px;
-    max-width: 192px;
-    min-height: 192px;
-    min-width: 192px;
-    margin-bottom: 24px;
+    max-height: 160px;
+    max-width: 160px;
+    min-height: 160px;
+    min-width: 160px;
+    margin-bottom: 24px !important;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    /*border-style: solid;*/
-    /*border-width: 0;*/
-    /*border-color: var(--accent-color);*/
-    border-radius: 50ch;
-    /*background-color: var(--accent-color);*/
+    border-radius: 7px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .ProjectIcon.Head {
-    max-height: 192px;
-    max-width: 192px;
-    min-height: 192px;
-    min-width: 192px;
-    margin-bottom: -20px !important;
-    margin-left: -20px !important;
+    max-height: 160px;
+    max-width: 160px;
+    min-height: 160px;
+    min-width: 160px;
+    margin-bottom: 0px !important;
+    margin-bottom: 0;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
@@ -3075,7 +3071,7 @@ a {
 .DownloadCountText {
     text-shadow: 0 0 5px rgb(0 0 0 / 50%) !important;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%) !important;
-    background-image: linear-gradient(var(--gradient-rotation), var(--gradient-secondary), var(--gradient-primary));
+    background-color: var(--accent-color);
     color: white !important;
     padding: 2px 4px;
     border-radius: 7px;
@@ -3609,8 +3605,8 @@ a {
 
 .Heading3 {
     /*font-family: Exo, sans-serif;*/
-    font-family: Quantum, Exo, sans-serif;
-    font-weight: normal !important;
+    font-family: Exo, sans-serif;
+    font-weight: bolder !important;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -3674,7 +3670,7 @@ a {
     border-style: solid;
     border-width: 1px;
     border-color: #555;
-    border-radius: 4px;
+    border-radius: 7px;
     background-color: #444;
     -webkit-transition: border-color 200ms ease, color 300ms ease, background-color 300ms ease;
     transition: border-color 200ms ease, color 300ms ease, background-color 300ms ease;
@@ -3691,17 +3687,17 @@ a {
 }
 
 .ProjectButton.Beta {
-    border-color: #f33;
+    outline: 2px solid #f335
 }
 
 .ProjectButton.Beta:hover {
-    border-color: #f33;
+    border-color: #555;
     color: #f33;
+    outline: 2px solid #f339
 }
 
 .ProjectButton.Beta:active {
-    background-color: #f33;
-    color: #000;
+    border-color: #555;
 }
 
 .ProjectButton.Wide {
@@ -3798,7 +3794,8 @@ a {
     -webkit-transition: color 300ms ease;
     transition: color 300ms ease;
     /* font-family: Fipps, sans-serif; */
-    font-family: Quantum, sans-serif;
+    font-family: Exo, sans-serif;
+    font-weight: bolder !important;
     color: #fff;
     font-size: 36px;
     font-weight: 400;
@@ -3831,28 +3828,29 @@ a {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 0;
-    background-color: #444;
+    background-color: var(--accent-color);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
     -webkit-transition: background-color 500ms ease, color 500ms ease;
     transition: background-color 500ms ease, color 500ms ease;
     font-family: Exo, sans-serif;
-    color: #bbb;
+    color: #fff;
     font-size: 16px;
     line-height: 26px;
     font-weight: 600;
     text-align: center;
     text-transform: none;
     cursor: default;
+    border-radius: 7px;
 }
 
 .GradientButton:hover {
-    background-color: #444;
-    color: var(--accent-color-alt);
+    background-color: #555;
+    color: var(--accent-color);
 }
 
 .GradientButton:active {
-    background-color: #555;
-    color: var(--accent-color-alt);
+    background-color: #666;
+    color: var(--accent-color);
 }
 
 .GradientButton.outline {
@@ -3894,7 +3892,7 @@ a {
 .BrandIcon {
     position: relative;
     top: 0;
-    border-radius: 50ch;
+    border-radius: 7px;
     display: inline;
     margin-right: 16px;
 }
@@ -4571,5 +4569,5 @@ body p:last-child {
 }
 
 body {
-    --version-data-css-main: "2022.5.4.18.12"
+    --version-data-css-main: "2022.22.5.17.22"
 }
