@@ -2874,7 +2874,7 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    border-radius: 7px;
+    border-radius: calc(100%/16);
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -3892,7 +3892,7 @@ a {
 .BrandIcon {
     position: relative;
     top: 0;
-    border-radius: 7px;
+    border-radius: calc(100%/16);
     display: inline;
     margin-right: 16px;
 }
@@ -4464,7 +4464,7 @@ a {
 }
 
 .BrandFont {
-    font-family: Quantum, Exo, sans-serif;
+    font-family: Exo, sans-serif;
     font-weight: 400;
 }
 
