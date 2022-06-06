@@ -1,0 +1,11 @@
+:root {
+    --accent-color: #0094FF;
+    --accent-color-alt: #59B9FF;
+    --gradient-rotation: 0deg;
+    --gradient-primary: #66CBFF;
+    --gradient-secondary: #0080FF;
+}
+
+:root {
+    --version-downloads-bubbleblaster: "2022.22.5.17.15"
+}
