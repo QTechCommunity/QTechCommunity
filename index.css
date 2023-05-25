@@ -1,9 +1,9 @@
 :root {
-    --accent-color: #ff7f00;
-    --accent-color-alt: #dfaf30;
+    --accent-color: #FF1F00;
+    --accent-color-alt: #FF6600;
     --gradient-rotation: 330deg;
-    --gradient-primary: #e64d00;
-    --gradient-secondary: #ffd500;
+    --gradient-primary: #FF1F00;
+    --gradient-secondary: #FF6600;
 }
 
 :root {
