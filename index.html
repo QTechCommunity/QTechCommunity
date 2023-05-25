@@ -12,7 +12,6 @@
     <meta content="website" property="og:type" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <!--    <meta content="googled166ba55801b89ee.html"           name="google-site-verification"/>-->
 
     <script rel="script" rev="script" type="text/javascript" src="data/js/webfont.js">
 
@@ -92,7 +91,7 @@
                             <a href="." class="Brand w-nav-brand">
                                 <div class="BrandBlock">
                                     <div class="BrandText">
-                                        <img src="data/img/brand/brand-icon-1.png" loading="eager" height="48" width="48" alt="" class="BrandIcon"/>
+                                        <img src="data/img/brand/brand-icon-1.png" loading="eager" height="48" width="48" style="margin-right: 20px; border-radius: 25%" class="BrandIcon"/>
                                         Ultreon
                                     </div>
                                 </div>
@@ -127,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div id="Start" class="Section StartPage">
+            <div id="Start" class="Section StartPage" style="background-color: #ff6600;">
                 <img src="data/img/arrow.svg" alt="" class="Arrow" style="-webkit-user-drag: none"/>
                 <div data-w-id="6b220cb1-4b9c-7fb0-75b9-53ff4a6c35a2" class="HeroContent">
                     <img src="data/img/project/empty/ultreon-v4.0.png" class="ProjectIcon Head" alt="">
@@ -137,36 +136,35 @@
                     <h3 class="Hero-SubHead">
                         Mods, games and other software
                     </h3>
-                    <a href="#Downloads" class="GradientButton GenericButton">
+                    <a href="#Downloads" class="StartButton GenericButton">
                         Go to downloads
+                    </a>
+                    <a href="https://discord.gg/sQsU7sE2Sx" target="_blank" class="StartButton GenericButton">
+                        Discord Server
                     </a>
                 </div>
             </div>
             <div id="Downloads" class="Section" style="padding-top: 54px">
-                <div id="Project_RandomThingz" class="ProjectItem Rainbow">
-                    <img src="data/img/project/random-thingz-v4.0.png" width="341" sizes="200px" alt="" class="ProjectIcon">
+                <div id="Project_UltreonCraft" class="ProjectItem Rainbow">
+                    <img src="data/img/project/ultreon-craft.png" width="341" sizes="200px" alt="" class="ProjectIcon">
                     <div class="ProjectContent">
                         <div class="ProjectHead">
-                            Probably just another random things mod
+                            A voxel game that aims to be feature rich.
                         </div>
                         <h2 class="ProjectName">
-                            Random Thingz
+                            Ultreon Craft
                         </h2>
                         <p class="ProjectDescription">
                             <em class="ItalicText">
-                                Probably just another random things mod. This is a mod that adds a bunch of random things,
-                                such as a slime sword, earth staff, a magnet that holds RF energy and when active attracts
-                                items to the player, a more advanced debug menu, an exit confirmation menu (can be configured
-                                and disabled), a bunch of tools and weapons, traits that are on the custom tools (traits are
-                                a sort of enchantments, but these can't be changed and are default for the tool / weapon
-                                material).
+                                This project is still work-in-progress. The game is made in Java using LibGDX and will get support for Fabric mods.
+                                Currently still in development, there's no ETA for when it releases it yet.
                             </em>
                         </p>
                         <div class="ProjectButtons WContainer">
-                            <a href="https://www.curseforge.com/minecraft/mc-mods/qforgemod" target="_blank" class="ProjectButton GenericButton">
-                                Download Page
+                            <a target="_blank" class="ProjectButton GenericButton Disabled SelectOverride">
+                                Not Released Yet
                             </a>
-                            <a href="https://github.com/Ultreon/RandomThingz" target="_blank" class="ProjectButton GenericButton">
+                            <a href="https://github.com/Ultreon/ultreon-craft" target="_blank" class="ProjectButton GenericButton Beta">
                                 Source Code
                             </a>
                         </div>
@@ -176,10 +174,34 @@
 
                     </div>
                 </div>
+                <div id="Project_BubbleBlaster" class="ProjectItem">
+                    <img src="data/img/project/bubble-blaster-v4.0.png" width="341" alt="3 circles representing bubbles." class="ProjectIcon"/>
+                    <div class="ProjectContent">
+                        <div class="ProjectHead">An Ultreon Original</div>
+                        <h2 class="ProjectName">Bubble Blaster 2</h2>
+                        <p class="paragraph-3">
+                            <i>
+                                The first project I (Qboi) have ever made. A game where you need to pop bubbles for getting points,
+                                and getting higher levels how further you go, each bubble has its own functionality and
+                                can act different by getting different points per bubble. The bubbles have its own
+                                properties like: attack damage; defense; score; effect given, and more. Originally made in
+                                Python, first made with tkinter, then using pyglet. And now made in Java with the Java AWT
+                                api. Note: this project is going to be ported to LibGDX too.
+                            </i>
+                        </p>
+                        <a target="_blank" class="ProjectButton GenericButton Disabled SelectOverride">
+                            Not Released Yet
+                        </a>
+                        <a href="https://gitlab.com/ultreon/bubble-blaster-2" class="ProjectButton GenericButton Beta">
+                            GitHub Repository
+                        </a>
+                    </div>
+                    <div class="ProjectImage"></div>
+                </div>
                 <div id="Project_MasterWeapons" class="ProjectItem"><!--suppress HtmlUnknownTarget -->
                     <img src="data/img/project/master-weapons.png" width="386" sizes="200px" alt="Minecraft Sword of the Master Weapons Mod. Orangery red color." class="ProjectIcon"/>
                     <div data-w-id="cafe0045-d304-79d9-8f68-af3adaed06e9" class="ProjectContent">
-                        <div class="ProjectHead">Just overpowered not enough?</div>
+                        <div class="ProjectHead">Is full enchanted netherite not enough?</div>
                         <h2 class="ProjectName">Master Weapons</h2>
                         <p class="ProjectDescription"><i>
                                 A mod that adds overpowered items. The items added are originally named Master, but because
@@ -187,36 +209,97 @@
                                 in progress.
                         </i></p>
                         <a href="https://www.curseforge.com/minecraft/mc-mods/master-weapons" class="ProjectButton GenericButton">
-                            Download Page
+                            CurseForge Page
+                        </a>
+                        <a href="https://modrinth.com/mod/master-weapons" class="ProjectButton GenericButton">
+                            Modrinth Page
+                        </a>
+                        <a href="https://github.com/Ultreon/master-weapons" class="ProjectButton GenericButton Wide">
+                            GitHub Repository
                         </a>
                     </div>
                     <div class="ProjectImage">
-
+    
                     </div>
                 </div>
-                <div id="Project_BubbleBlaster" class="ProjectItem">
-                    <img src="data/img/project/bubble-blaster-v4.0.png" width="341" alt="3 circles representing bubbles." class="ProjectIcon"/>
+                <div id="Project_AdvancedDebug" class="ProjectItem"><!--suppress HtmlUnknownTarget -->
+                    <img src="data/img/project/advanced-debug.png" width="386" sizes="200px" alt="Minecraft Sword of the Master Weapons Mod. Orangery red color." class="ProjectIcon"/>
+                    <div data-w-id="cafe0045-d304-79d9-8f68-af3adaed06e9" class="ProjectContent">
+                        <div class="ProjectHead">Debugging Utilities through the roof!</div>
+                        <h2 class="ProjectName">Advanced Debug</h2>
+                        <p class="ProjectDescription"><i>
+                                A debugging utilities mod for developers, or just people that likes to know what happens in their world.
+                                The team is currently working on an update that adds a more advanced debug utility using ImGui.
+                        </i></p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/advanced-debug" class="ProjectButton GenericButton">
+                            CurseForge Page
+                        </a>
+                        <a href="https://modrinth.com/mod/advanced-debug" class="ProjectButton GenericButton">
+                            Modrinth Page
+                        </a>
+                        <a href="https://github.com/Ultreon/advanced-debug" class="ProjectButton GenericButton Wide">
+                            GitHub Repository
+                        </a>
+                    </div>
+                    <div class="ProjectImage">
+    
+                    </div>
+                </div>
+                <div id="Project_SmallUtilities" class="ProjectItem"><!--suppress HtmlUnknownTarget -->
+                    <img src="data/img/project/small-utilities.png" width="386" sizes="200px" alt="Minecraft Sword of the Master Weapons Mod. Orangery red color." class="ProjectIcon"/>
+                    <div data-w-id="cafe0045-d304-79d9-8f68-af3adaed06e9" class="ProjectContent">
+                        <div class="ProjectHead">Adding random stuff</div>
+                        <h2 class="ProjectName">Small Utilities</h2>
+                        <p class="ProjectDescription"><i>
+                                A mod that adds random stuff that don't fit any other Ultreon Team mod. (Might need to get a new name lol)
+                        </i></p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/small-utilities" class="ProjectButton GenericButton">
+                            CurseForge Page
+                        </a>
+                        <a href="https://modrinth.com/mod/small-utilities" class="ProjectButton GenericButton">
+                            Modrinth Page
+                        </a>
+                        <a href="https://github.com/Ultreon/small-utilities" class="ProjectButton GenericButton Wide">
+                            GitHub Repository
+                        </a>
+                    </div>
+                    <div class="ProjectImage">
+    
+                    </div>
+                </div>
+                <!-- <div id="Project_ExitConfirmation" class="ProjectItem">
+                    <img src="data/img/project/exit-confirmation.png" width="386" sizes="200px" alt="Minecraft Sword of the Master Weapons Mod. Orangery red color." class="ProjectIcon"/>
+                    <div data-w-id="cafe0045-d304-79d9-8f68-af3adaed06e9" class="ProjectContent">
+                        <div class="ProjectHead">Accidentally closed Minecraft?</div>
+                        <h2 class="ProjectName">Master Weapons</h2>
+                        <p class="ProjectDescription"><i>
+                                This is a mod that adds an exit confirmation screen when closing the game. This includes close button, Alt+F4 and Quit Button.
+                        </i></p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/exit-confirmation" class="ProjectButton GenericButton">
+                            CurseForge Page
+                        </a>
+                        <a href="https://www.curseforge.com/mod/exit-confirmation" class="ProjectButton GenericButton">
+                            Modrinth Page
+                        </a>
+                    </div>
+                    <div class="ProjectImage">
+    
+                    </div>
+                </div> -->
+                <div id="Project_UltreonBrowser" class="ProjectItem Last">
+                    <img src="data/img/project/ultreon-browser.png" width="341" alt="PyChat Icon" class="ProjectIcon"/>
                     <div class="ProjectContent">
-                        <div class="ProjectHead">My First Game</div>
-                        <h2 class="ProjectName">Bubble Blaster</h2>
-                        <p class="paragraph-3">
-                            <i>
-                                The first project I've ever made. A game where you need to pop bubbles for getting points,
-                                and getting higher levels how further you go, each bubble has its own functionality and
-                                can act different by getting different points per bubble. The bubbles have its own
-                                properties like: attack damage; defense; score; effect given, and more. Originally made in
-                                Python, first made with tkinter, then using pyglet. And now made in Java with the Java AWT
-                                api.
-                            </i>
-                        </p>
-                        <a href="https://github.com/Ultreon/bubble-blaster-launcher/releases/download/updater1/Updater.exe" class="ProjectButton Wide GenericButton" download="true">
-                            Download (Updater)
+                        <div class="ProjectHead">A webbrowser made in Kotlin</div>
+                        <h2 class="ProjectName">Ulteon Browser</h2>
+                        <p class="ProjectDescription"><i>
+                            A chromium-based webbrowser that makes use of JCEF (Java Chromium Embedded Framework). And is made in Kotlin.
+                            The browser has a bunch of themes, and supports custom themes that work on Jetbrains IDEs.
+                        </i></p>
+                        <a href="https://github.com/Ultreon/ultreon-browser/releases/latest" target="_blank" class="ProjectButton GenericButton">
+                            Download
                         </a>
-                        <a href="https://gitlab.com/ultreon/bubble-blaster" class="ProjectButton GenericButton Beta">
-                            Sources (Base Game)
-                        </a>
-                        <a href="https://github.com/Ultreon/bubble-blaster-launcher" class="ProjectButton GenericButton Beta">
-                            Sources (Others)
+                        <a href="https://github.com/Ultreon/ultreon-browser" target="_blank" class="ProjectButton GenericButton">
+                            GitHub Repository
                         </a>
                     </div>
                     <div class="ProjectImage"></div>
@@ -231,11 +314,11 @@
                             spread everywhere on your screen. The way the app does it is by creating virtual windows inside
                             the main window. Also, the app and editor can be customized, for example: foreground and
                             background colors.</i></p>
-                        <a target="_blank" class="ProjectButton GenericButton Disabled SelectOverride">
-                            Coming Soon!
+                        <a href="https://github.com/Ultreon/notepad-improved-2/releases/latest" target="_blank" class="ProjectButton GenericButton">
+                            Download
                         </a>
-                        <a href="https://github.com/Ultreon/NotepadImproved" target="_blank" class="ProjectButton GenericButton">
-                            Source Code
+                        <a href="https://github.com/Ultreon/notepad-improved-2" target="_blank" class="ProjectButton GenericButton">
+                            GitHub Repository
                         </a>
                     </div>
                     <div class="ProjectImage"></div>
@@ -268,6 +351,5 @@
         <!--[if lte IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>
         <![endif]-->
-        <p >This text will never appear on the page, isn't that weird?</p>
     </body>
 </html>
