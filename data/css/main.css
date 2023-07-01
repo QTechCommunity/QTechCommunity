@@ -2229,7 +2229,7 @@ p {
 }
 
 a {
-    color: #000;
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
