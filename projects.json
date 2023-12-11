@@ -49,6 +49,13 @@
         "game": "minecraft"
     },
     {
+        "id": "ultimate-essentials",
+        "name": "Ultimate Essentials",
+        "summary": "The ultimate server essentials mod, that uses GUI and keybinds instead of commands.",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
         "id": "uc-networking",
         "name": "Ultracraft Networking",
         "summary": "An Ultracraft mod adding improved networking API for mods.",
