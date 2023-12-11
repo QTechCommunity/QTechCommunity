@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Fipps';
+  src: url('Fipps-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Quantum';
+  src: url('Quantum.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
