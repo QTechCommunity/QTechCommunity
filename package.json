@@ -2,7 +2,7 @@
   "name": "ultreon-web",
   "version": "5.0.0",
   "homepage": "https://ultreon.github.io",
-  "private": true,
+  "private": false,
   "files": [
     "data/project/*.*",
     "data/project/**/*.*",
