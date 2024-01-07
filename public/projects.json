@@ -50,8 +50,15 @@
     },
     {
         "id": "ultimate-essentials",
-        "name": "Ulitimate Essentials",
+        "name": "Ultimate Essentials",
         "summary": "The ultimate server essentials mod, that uses GUI and keybinds instead of commands.",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
+        "id": "hardcore-extended",
+        "name": "Hardcore Extended",
+        "summary": "Make a harder Minecraft experience",
         "category": "mods",
         "game": "minecraft"
     },
