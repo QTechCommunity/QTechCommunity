@@ -75,12 +75,6 @@
 
     
     {
-        "id": "game-launcher",
-        "name": "Ultreon Game Launcher",
-        "summary": "Launcher for games made by Ultreon",
-        "category": "games"
-    },
-    {
         "id": "ultracraft",
         "name": "Ultracraft",
         "summary": "A WIP voxel game aiming to do things differently.",
@@ -97,6 +91,18 @@
 
 
     
+    {
+        "id": "game-launcher",
+        "name": "Ultreon Game Launcher",
+        "summary": "Launcher for games made by Ultreon",
+        "category": "misc"
+    },
+    {
+        "id": "filetype-explorers",
+        "name": "Filetype Explorer Collection",
+        "summary": "Collection of file type explorers.",
+        "category": "misc"
+    },
     {
         "id": "notepad-improved",
         "name": "Notepad Improved",
