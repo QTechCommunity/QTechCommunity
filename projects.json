@@ -56,6 +56,13 @@
         "game": "minecraft"
     },
     {
+        "id": "hardcore-extended",
+        "name": "Hardcore Extended",
+        "summary": "Make a harder Minecraft experience",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
         "id": "uc-networking",
         "name": "Ultracraft Networking",
         "summary": "An Ultracraft mod adding improved networking API for mods.",
