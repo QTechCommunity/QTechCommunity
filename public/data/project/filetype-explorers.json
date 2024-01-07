@@ -1,0 +1,7 @@
+{
+    "name": "Filetype Explorer Collection",
+    "summary": "Collection of filetype explorers",
+    "description": "Consists of UBO, NBT and Pickle data type explorers.\n* UBO: Ultreon Binary Object, a NBT-like data structure.\n* NBT: Named Binary Tag, a data type that the sandbox game \"Minecraft\" uses.\n* Pickle: the included data serializtion API made for the Python programming language.",
+    "background": "#101010",
+    "comingSoon": true
+}
