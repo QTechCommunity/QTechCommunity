@@ -11,23 +11,39 @@
     }
   },
   "JavaJDK": {
-    "17": {
+    "21": {
       "download": {
-        "win-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip",
-        "win-x86": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x86_windows_hotspot_17.0.1_12.zip",
-        "lin-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x64_linux_hotspot_17.0.1_12.tar.gz",
-        "lin-arm": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_arm_linux_hotspot_17.0.1_12.tar.gz",
-        "mac-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x64_mac_hotspot_17.0.1_12.tar.gz"
+        "win-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_windows_hotspot_21.0.2_13.zip",
+        "lin-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_linux_hotspot_21.0.2_13.tar.gz",
+        "lin-arm": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_arm_linux_hotspot_21.0.2_13.tar.gz",
+        "mac-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_mac_hotspot_21.0.2_13.tar.gz"
       },
-      "version": "17.0.1",
-      "date": "2021-10-27 15:36",
+      "version": "21.0.2",
+      "date": "2024-01-20 6:20",
       "executablePath": "bin/javaw",
       "executablePaths": {
         "win": "bin/javaw",
-        "lin": "bin/javaw",
-        "mac": "bin/javaw"
+        "lin": "bin/java",
+        "mac": "bin/java"
       },
-      "innerPath": "jdk-17.0.1+12"
+      "innerPath": "jdk-21.0.2+13"
+    },
+    "17": {
+      "download": {
+        "win-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.zip",
+        "lin-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz",
+        "lin-arm": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_arm_linux_hotspot_17.0.10_7.tar.gz",
+        "mac-x64": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_mac_hotspot_17.0.10_7.tar.gz"
+      },
+      "version": "17.0.10",
+      "date": "2024-01-18 0:00",
+      "executablePath": "bin/javaw",
+      "executablePaths": {
+        "win": "bin/javaw",
+        "lin": "bin/java",
+        "mac": "bin/java"
+      },
+      "innerPath": "jdk-17.0.10+7"
     },
     "16": {
       "download": {
@@ -38,12 +54,12 @@
         "mac-x64": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-jdk_x64_mac_hotspot_16.0.2_7.tar.gz"
       },
       "version": "16.0.2",
-      "date": "2021-07-30 15:36",
+      "date": "2021-07-31 1:00",
       "executablePath": "bin/javaw",
       "executablePaths": {
         "win": "bin/javaw",
-        "lin": "bin/javaw",
-        "mac": "bin/javaw"
+        "lin": "bin/java",
+        "mac": "bin/java"
       },
       "innerPath": "jdk-16.0.2+7"
     }
