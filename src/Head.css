@@ -31,7 +31,7 @@
 
 .StartButton {
   color: #000;
-  display: inline;
+  display: inline-block;
   background: #fff8;
   backdrop-filter: blur(24px);
   padding: 16px 24px;
@@ -41,6 +41,35 @@
   z-index: 1;
   box-sizing: content-box;
   user-select: none;
+}
+
+@media screen and (max-width: 570px) {
+  #Start {
+    padding-left: 32px;
+    font-size: 0.5rem;
+  }
+
+  #Start .StartSubHead {
+    margin-bottom: 2em;
+    font-size: 1rem;
+  }
+
+  .StartButton {
+    display: block;
+    width: calc(100vw - 128px);
+    margin-bottom: 12px;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #Start .ProjectTitle {
+    font-size: 5em;
+  }
+
+  #Start .StartSubHead {
+    font-size: 2em;
+  }
 }
 
 .StartButton:hover {
@@ -249,4 +278,41 @@ max-height: 3px
 ::-webkit-scrollbar-button:start:increment,
 ::-webkit-scrollbar-button:end:decrement {
   display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .ProjectEntry {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .ProjectEntry .Icon {
+    display: block !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0 !important;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+
+  .ProjectEntry .Details {
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ProjectEntry .ProjectTitle {
+    text-align: center;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ProjectList {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }

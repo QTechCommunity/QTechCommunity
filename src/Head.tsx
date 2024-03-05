@@ -187,8 +187,8 @@ export function Head(project: PageType) {
   }
   if (project === 'misc') {
     style.background = '#303242'
-    projectName = "Other Projects List"
-    projectDescription = "List of miscelaneous projects made by Ultreon."
+    projectName = "Miscelaneous List"
+    projectDescription = "List of other projects made by Ultreon that don't fit into other categories."
   }
   if (project === undefined) {
     style.background = 'crimson'

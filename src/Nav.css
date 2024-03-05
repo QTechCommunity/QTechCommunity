@@ -109,6 +109,82 @@
   color: #fff;
 }
 
+@media screen and (max-width: 960px) {
+  .Nav {
+    padding-right: 0;
+    padding-left: 0;
+
+    display: inline;
+  }
+
+  .NavInner {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Brand {
+    display: inline-block;
+    height: 100%;
+    margin-right: 10vi;
+  }
+
+  .NavMenuWrap {
+    display: inline-block;
+  }
+
+  .BrandBlock {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-right: 0;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .BrandBlock {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-right: 0;
+  }
+  .BrandText {
+    display: none;
+  }  
+}
+
+@media screen and (max-width: 512px) {
+  .BrandBlock {
+    margin-left: 16px;
+    padding-right: 0;
+    margin-right: 0;
+    display: inline;
+    width: auto;
+  }
+  .Brand {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .BrandBlock {
+    margin-left: 16px;
+    padding-right: 0;
+    margin-right: 0;
+    display: inline;
+    width: auto;
+  }
+
+  .NavInner {
+    margin-top: 8px;
+  }
+  
+  .BrandIcon {
+    display: none;
+  }
+  .Brand {
+    display: none;
+  }
+}
+
 .NavLink {
   font-family: Exo, sans-serif;
   min-width: 200px;
@@ -124,7 +200,7 @@
   background: #fff4;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
   .NavMain {
     padding-right: 0;
     padding-left: 0;
