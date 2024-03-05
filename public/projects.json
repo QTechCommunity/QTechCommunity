@@ -63,6 +63,13 @@
         "game": "minecraft"
     },
     {
+        "id": "mine-chromatic",
+        "name": "MineChromatic",
+        "summary": "Adds a webbrowser app to Ultreon Devices Mod",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
         "id": "uc-networking",
         "name": "Ultracraft Networking",
         "summary": "An Ultracraft mod adding improved networking API for mods.",
@@ -116,8 +123,8 @@
         "category": "misc"
     },
     {
-        "id": "ultreon-os",
-        "name": "Ultreon OS",
+        "id": "neonix-os",
+        "name": "Neonix OS",
         "summary": "A very WIP operating system.",
         "category": "misc"
     }

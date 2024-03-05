@@ -1,0 +1,9 @@
+{
+    "name": "MineChromatic",
+    "summary": "Adds a webbrowser app to Ultreon Devices Mod.",
+    "background": "#111",
+    "curseforge": "https://curseforge.com/minecraft/mc-mods/mine-chromatic-addon",
+    "modrinth": "https://modrinth.com/mod/mine-chromatic-addon",
+    "description": true,
+    "new": true
+}
