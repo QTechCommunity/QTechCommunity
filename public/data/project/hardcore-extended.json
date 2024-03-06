@@ -1,7 +1,7 @@
 {
     "name": "Hardcore Extended",
     "summary": "Make a harder Minecraft experience",
-    "background": "image",
+    "background": "#222",
     "curseforge": "https://curseforge.com/minecraft/mc-mods/hardcore-extended",
     "modrinth": "https://modrinth.com/mod/hardcore-extended"
 }

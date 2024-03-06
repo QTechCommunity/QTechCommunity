@@ -48,3 +48,22 @@ export function NavBar() {
     </div>
   );
 }
+
+export function Footer() {
+  return (
+    <div className="Footer">
+      <div className="FooterText">
+        © 2022-2024, Ultreon. All rights reserved.<br/>
+        Links: <a href="https://github.com/Ultreon/ultreon.github.io" className='FooterLink'>Source Code</a> |&nbsp;
+        <a href="https://discord.gg/WePT9v2CmQ" className='FooterLink'>Discord</a> |&nbsp;
+        <a href="https://github.com/Ultreon" className='FooterLink'>GitHub</a> |&nbsp;
+        <a href="https://gitlab.com/ultreon" className='FooterLink'>GitLab</a> |&nbsp;
+        <a href="https://modrinth.com/organization/ultreon" className='FooterLink'>Modrinth</a> |&nbsp;
+        <a href="https://www.curseforge.com/members/xypercode" className='FooterLink'>CurseForge</a> |&nbsp;
+        <a href="https://youtube.com/@ultreon" className='FooterLink'>YouTube</a>
+        <br/>
+        <p>ANY MINECRAFT-RELATED CONTENT ON THIS WEBSITE IS NOT AN OFFICIAL MINECRAFT PRODUCT.<br/>NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.<br/></p>
+      </div>
+    </div>
+  );
+}

@@ -62,6 +62,50 @@ function NewBadge(project: PageType) {
   }
 }
 
+function SussyBadge(project: PageType) {
+  let bytes = [0x45, 0x61, 0x73, 0x74, 0x65, 0x72, 0x20, 0x45, 0x67, 0x67];
+
+  if (project instanceof Object && project.sussy) {
+    return (
+      <span className="Badge">
+        {bytes.map((b) => String.fromCharCode(b))}
+      </span>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
+function AlphaBadge(project: PageType) {
+  if (project instanceof Object && project.stage === "alpha") {
+    return (
+      <span className="Badge Alpha">
+        Alpha
+      </span>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
+function BetaBadge(project: PageType) {
+  if (project instanceof Object && project.stage === "beta") {
+    return (
+      <span className="Badge Beta">
+        Beta
+      </span>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
 function SourceCodeButton(project: PageType) {
   if (project instanceof Object && project.sourceCode !== undefined) {
     return (
@@ -200,7 +244,7 @@ export function Head(project: PageType) {
     return (
       <>
         <a href="https://discord.gg/WePT9v2CmQ" target="_blank" className="StartButton" rel="noreferrer">
-          Discord Server &#20;<i className="bi bi-box-arrow-up-right"></i>
+          Discord Server &nbsp;<i className="bi bi-box-arrow-up-right"></i>
         </a>
         <a href="#games" target="_blank" className="StartButton" rel="noreferrer">
           Game List
@@ -227,7 +271,10 @@ export function Head(project: PageType) {
               <div className="Badges">
                 {DeprecatedBadge(project)}
                 {ComingSoonBadge(project)}
+                {AlphaBadge(project)}
+                {BetaBadge(project)}
                 {NewBadge(project)}
+                {SussyBadge(project)}
               </div>
             </h3>
             {project === null ? RootButtons() : <></>}

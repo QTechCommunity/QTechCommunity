@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ProjectPage from './Project';
 import { Route, HashRouter as Router, Routes } from 'react-router-dom';
-import { NavBar } from './Nav';
+import { Footer, NavBar } from './Nav';
 import { GameListPage } from './GamesListPage';
 import { ModListPage } from './ModListPage';
 import { MiscListPage } from './MiscListPage';
@@ -20,6 +20,7 @@ ReactDOM.render(
           <Route path='mods' element={<ModListPage />} />
           <Route path='misc' element={<MiscListPage />} />
       </Routes>
+      <Footer />
   </Router>,
   document.getElementById('root')
 );

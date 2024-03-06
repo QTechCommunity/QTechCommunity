@@ -1,5 +1,7 @@
 .Head {
   position: relative;
+  z-index: 20;
+  background-color: #111 !important;
 }
 
 #Start {
@@ -158,6 +160,7 @@
   padding: 4px 8px;
   border-radius: 8px;
   margin-top: 32px;
+  margin-right: 8px;
   position: relative;
   top: 4px;
   font-size: medium;
@@ -173,6 +176,15 @@
 
 .Badge.ComingSoon {
   background: #0004;
+}
+
+.Badge.Alpha {
+  background: #f30;
+  color: #fff;
+}
+
+.Badge.Beta {
+  background: #f90;
 }
 
 .Description {

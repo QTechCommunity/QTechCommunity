@@ -56,16 +56,23 @@
         "game": "minecraft"
     },
     {
-        "id": "hardcore-extended",
-        "name": "Hardcore Extended",
-        "summary": "Make a harder Minecraft experience",
+        "id": "mine-chromatic",
+        "name": "MineChromatic",
+        "summary": "Adds a webbrowser app to Ultreon Devices Mod",
         "category": "mods",
         "game": "minecraft"
     },
     {
-        "id": "mine-chromatic",
-        "name": "MineChromatic",
-        "summary": "Adds a webbrowser app to Ultreon Devices Mod",
+        "id": "controller-x",
+        "name": "ControllerX",
+        "summary": "A controller mod for Minecraft, with a bunch of new features such as on screen keyboard.",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
+        "id": "materialistic-tools",
+        "name": "Materialistic Tools",
+        "summary": "Adds new tools and items for Minecraft with real and fictional materials.",
         "category": "mods",
         "game": "minecraft"
     },

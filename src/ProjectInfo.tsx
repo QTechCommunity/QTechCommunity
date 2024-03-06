@@ -16,6 +16,8 @@ export class Project {
     comingSoon: boolean = false;
     new: boolean = false;
     descriptionText: string;
+    stage: "alpha" | "beta" | "release" = "release";
+    sussy: boolean = false;
 }
 
 export class ProjectRef {
@@ -24,6 +26,7 @@ export class ProjectRef {
     summary: string;
     category: string;
     icon: string;
+    game: string = "none";
 }
 
 export const PROJECTS: Array<ProjectRef> = PROJECT_JSON
