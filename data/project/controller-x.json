@@ -1,0 +1,10 @@
+{
+    "name": "ControllerX",
+    "summary": "A controller mod for Minecraft, with a bunch of new features such as on screen keyboard.",
+    "description": "",
+    "background": "#101010",
+    "stage": "alpha",
+    "new": true,
+    "curseforge": "https://curseforge.com/minecraft/mc-mods/controllerx",
+    "modrinth": "https://modrinth.com/mod/controllerx"
+}
