@@ -106,12 +106,6 @@
 
     
     {
-        "id": "app-center",
-        "name": "Ultreon AppCenter",
-        "summary": "A center for all apps/games made by Ultreon",
-        "category": "misc"
-    },
-    {
         "id": "filetype-explorers",
         "name": "Filetype Explorer Collection",
         "summary": "Collection of file type explorers.",
