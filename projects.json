@@ -106,9 +106,9 @@
 
     
     {
-        "id": "game-launcher",
-        "name": "Ultreon Game Launcher",
-        "summary": "Launcher for games made by Ultreon",
+        "id": "app-center",
+        "name": "Ultreon AppCenter",
+        "summary": "A center for all apps/games made by Ultreon",
         "category": "misc"
     },
     {
