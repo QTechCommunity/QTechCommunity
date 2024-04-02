@@ -252,6 +252,9 @@ export function Head(project: PageType) {
         <a href="#mods" target="_blank" className="StartButton" rel="noreferrer">
           Mod List
         </a>
+        <a href="/app-center" target="_blank" className="StartButton" rel="noreferrer">
+          Download AppCenter
+        </a>
       </>
     )
   }
