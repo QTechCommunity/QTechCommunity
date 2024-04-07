@@ -24,7 +24,7 @@
       "executablePaths": {
         "win": "bin/javaw",
         "lin": "bin/java",
-        "mac": "bin/java"
+        "mac": "Contents/Home/bin/java"
       },
       "innerPath": "jdk-21.0.2+13"
     },
@@ -39,6 +39,11 @@
       "version": "17.0.1+12",
       "date": "2021-10-27 15:36",
       "executablePath": "bin/javaw",
+      "executablePaths": {
+        "win": "bin/javaw",
+        "lin": "bin/java",
+        "mac": "Contents/Home/bin/java"
+      },
       "innerPath": "jdk-17.0.1+12"
     },
     "16": {
@@ -52,6 +57,11 @@
       "version": "16.0.2+7",
       "date": "2021-07-30 15:36",
       "executablePath": "bin/javaw",
+      "executablePaths": {
+        "win": "bin/javaw",
+        "lin": "bin/java",
+        "mac": "Contents/Home/bin/java"
+      },
       "innerPath": "jdk-16.0.2+7"
     }
   }
