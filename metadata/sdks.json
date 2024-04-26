@@ -13,20 +13,21 @@
   "JavaJDK": {
     "21": {
       "download": {
-        "win-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_windows_hotspot_21.0.2_13.zip",
-        "lin-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_linux_hotspot_21.0.2_13.tar.gz",
-        "lin-arm": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_arm_linux_hotspot_21.0.2_13.tar.gz",
-        "mac-x64": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_mac_hotspot_21.0.2_13.tar.gz"
+        "win-x64": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_windows-x64_bin.zip",
+        "lin-x64": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz",
+        "mac-x64": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macosx-x64_bin.tar.gz",
+        "lin-arm": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz",
+        "mac-arm": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macosx-aarch64_bin.tar.gz"
       },
-      "version": "21.0.2",
-      "date": "2024-01-20 6:20",
-      "executablePath": "bin/javaw",
+      "version": "21.0.2+13.1",
+      "date": "2024-04-26 01:28",
+      "innerPath": "graalvm-community-openjdk-21.0.2+13.1",
+      "executablePath": "bin/java",
       "executablePaths": {
-        "win": "bin/javaw",
+        "win": "bin/javaw.exe",
         "lin": "bin/java",
         "mac": "Contents/Home/bin/java"
-      },
-      "innerPath": "jdk-21.0.2+13"
+      }
     },
     "17": {
       "download": {
