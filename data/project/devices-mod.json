@@ -4,5 +4,7 @@
     "background": "image",
     "curseforge": "https://curseforge.com/minecraft/mc-mods/devices-mod",
     "modrinth": "https://modrinth.com/mod/devices-mod",
-    "stage": "beta"
+    "stage": "beta",
+    "forgeDL": "https://cdn.ultreon.dev/dl/devices/devices-0.8.2-forge.jar",
+    "fabricDL": "https://cdn.ultreon.dev/dl/devices/devices-0.8.2-fabric.jar"
 }
