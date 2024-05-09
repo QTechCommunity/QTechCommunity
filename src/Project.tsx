@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Head } from './Head';
-import { Project } from './ProjectInfo';
+import { Project, fetch_json, fetch_text } from './ProjectInfo';
 
 import './ProjectStyles.css';
 
@@ -26,10 +26,10 @@ const projectId = query.get("id");
 try {
   let project: Project | null = null;
   if (projectId !== undefined) {
-    project = await (await fetch("./data/project/" + projectId + ".json")).json() as Project;
+    project = fetch_json("./data/project/" + projectId + ".json") as Project;
     project.id = projectId;
     if (project.description !== undefined && project.description) {
-      project.descriptionText = await (await fetch("./data/project/" + projectId + ".html")).text();
+      project.descriptionText = fetch_text("./data/project/" + projectId + ".html");
     }
   }
 

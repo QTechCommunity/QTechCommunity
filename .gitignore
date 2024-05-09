@@ -5,5 +5,5 @@
 /.vs
 /.idea
 node_modules/
-static/
 build/
+dist/
