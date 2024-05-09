@@ -12,6 +12,15 @@ export class Project {
     downloads: string;
     modrinth: string;
     planetMc: string;
+    forgeDL: string;
+    fabricDL: string;
+    neoForgeDL: string;
+    quiltDL: string;
+    riftDL: string;
+    rmlDL: string;
+    babricDL: string;
+    cursedLegacyFabricDL: string;
+    modLoaderDL: string;
     deprecated: boolean = false;
     comingSoon: boolean = false;
     new: boolean = false;

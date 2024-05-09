@@ -1,5 +1,10 @@
 * {
-  transition: ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s,
+      background ease-in-out 0.2s,
+      box-shadow ease-in-out 0.2s,
+      border-width ease-in-out 0.2s,
+      border-color ease-in-out 0.2s,
+      border-radius ease-in-out 0.2s;
 }
 
 .NavMain {

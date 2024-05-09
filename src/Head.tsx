@@ -176,6 +176,48 @@ function PlanetMcButton(project: PageType) {
   }
 }
 
+function ForgeDLButton(project: PageType) {
+  if (project instanceof Object && project.forgeDL !== undefined) {
+    return (
+      <a href={project.forgeDL} className="StartDLButton">
+        Forge Download
+      </a>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
+function FabricDLButton(project: PageType) {
+  if (project instanceof Object && project.fabricDL !== undefined) {
+    return (
+      <a href={project.fabricDL} className="StartDLButton">
+        Fabric Download
+      </a>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
+function NeoForgeDLButton(project: PageType) {
+  if (project instanceof Object && project.neoForgeDL !== undefined) {
+    return (
+      <a href={project.neoForgeDL} className="StartDLButton">
+        NeoForge Download
+      </a>
+    )
+  } else {
+    return (
+      <></>
+    )
+  }
+}
+
 function Description(project: PageType) {
   if (project instanceof Object && project.descriptionText !== undefined) {
     class Comp extends React.Component {
@@ -280,13 +322,22 @@ export function Head(project: PageType) {
                 {SussyBadge(project)}
               </div>
             </h3>
-            {project === null ? RootButtons() : <></>}
-            {HomePageButton(project)}
-            {SourceCodeButton(project)}
-            {DownloadsButton(project)}
-            {CurseForgeButton(project)}
-            {ModrinthButton(project)}
-            {PlanetMcButton(project)}
+            <div className="ButtonGroup">
+              {project === null ? RootButtons() : <></>}
+              {HomePageButton(project)}
+              {SourceCodeButton(project)}
+              {DownloadsButton(project)}
+              {CurseForgeButton(project)}
+              {ModrinthButton(project)}
+              {PlanetMcButton(project)}
+            </div>
+            <br/>
+            <br/>
+            <div className="ButtonGroup">
+              {ForgeDLButton(project)}
+              {NeoForgeDLButton(project)}
+              {FabricDLButton(project)}
+            </div>
           </div>
         </div>
       </div>

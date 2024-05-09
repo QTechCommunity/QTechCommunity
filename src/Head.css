@@ -37,12 +37,56 @@
   background: #fff8;
   backdrop-filter: blur(24px);
   padding: 16px 24px;
-  border-radius: 8px;
-  margin-right: 8px;
   text-decoration: none;
   z-index: 1;
   box-sizing: content-box;
   user-select: none;
+}
+
+.StartButton:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.StartButton:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.ButtonGroup {
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  width: max-content
+}
+
+.StartDLButton {
+  color: #fff;
+  display: inline-block;
+  background: #0008;
+  backdrop-filter: blur(24px);
+  padding: 16px 24px;
+  text-decoration: none;
+  z-index: 1;
+  box-sizing: content-box;
+  user-select: none;
+}
+
+.StartDLButton:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.StartDLButton:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.StartDLButton:hover {
+  background: #4448;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  z-index: 2 !important;
 }
 
 @media screen and (max-width: 570px) {
@@ -76,6 +120,8 @@
 
 .StartButton:hover {
   background: #fff;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  z-index: 2 !important;
 }
 
 .ProjectIcon {
