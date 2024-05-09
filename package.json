@@ -32,7 +32,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d dist",
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"

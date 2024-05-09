@@ -180,7 +180,11 @@ function ForgeDLButton(project: PageType) {
   if (project instanceof Object && project.forgeDL !== undefined) {
     return (
       <a href={project.forgeDL} className="StartDLButton">
-        Forge Download
+        Forge Download {
+          project.forgeMCV !== undefined
+           ? (<span className="Badge Version">{project.forgeMCV}</span>)
+           : (<></>)
+        }
       </a>
     )
   } else {
@@ -194,7 +198,11 @@ function FabricDLButton(project: PageType) {
   if (project instanceof Object && project.fabricDL !== undefined) {
     return (
       <a href={project.fabricDL} className="StartDLButton">
-        Fabric Download
+        Fabric Download {
+          project.fabricMCV !== undefined
+           ? (<span className="Badge Version">{project.fabricMCV}</span>)
+           : (<></>)
+        }
       </a>
     )
   } else {
@@ -208,7 +216,11 @@ function NeoForgeDLButton(project: PageType) {
   if (project instanceof Object && project.neoForgeDL !== undefined) {
     return (
       <a href={project.neoForgeDL} className="StartDLButton">
-        NeoForge Download
+        NeoForge Download {
+          project.neoForgeMCV !== undefined
+           ? (<span className="Badge Version">{project.neoForgeMCV}</span>)
+           : (<></>)
+        }
       </a>
     )
   } else {

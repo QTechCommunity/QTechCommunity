@@ -8,5 +8,7 @@
     "curseforge": "https://curseforge.com/minecraft/mc-mods/controllerx",
     "modrinth": "https://modrinth.com/mod/controllerx",
     "forgeDL": "https://cdn.ultreon.dev/dl/controllerx/ControllerX-20.1.3-forge.jar",
-    "fabricDL": "https://cdn.ultreon.dev/dl/controllerx/ControllerX-20.1.3-fabric.jar"
+    "fabricDL": "https://cdn.ultreon.dev/dl/controllerx/ControllerX-20.1.3-fabric.jar",
+    "forgeMCV": "1.20.1",
+    "fabricMCV": "1.20.1"
 }

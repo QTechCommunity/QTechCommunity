@@ -6,5 +6,7 @@
     "modrinth": "https://modrinth.com/mod/devices-mod",
     "stage": "beta",
     "forgeDL": "https://cdn.ultreon.dev/dl/devices/devices-0.8.2-forge.jar",
-    "fabricDL": "https://cdn.ultreon.dev/dl/devices/devices-0.8.2-fabric.jar"
+    "fabricDL": "https://cdn.ultreon.dev/dl/devices/devices-0.8.2-fabric.jar",
+    "forgeMCV": "1.20.1",
+    "fabricMCV": "1.20.1"
 }

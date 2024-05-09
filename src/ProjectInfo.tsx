@@ -44,6 +44,15 @@ export class Project {
     babricDL: string;
     cursedLegacyFabricDL: string;
     modLoaderDL: string;
+    forgeMCV: string;
+    fabricMCV: string;
+    neoForgeMCV: string;
+    quiltMCV: string;
+    riftMCV: string;
+    rmlMCV: string;
+    babricMCV: string;
+    cursedLegacyFabricMCV: string;
+    modLoaderMCV: string;
     deprecated: boolean = false;
     comingSoon: boolean = false;
     new: boolean = false;

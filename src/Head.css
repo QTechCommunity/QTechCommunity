@@ -216,6 +216,13 @@
   background: crimson;
 }
 
+.Badge.Version {
+  background: #fffa;
+  color: #000a;
+  top: 0;
+  margin-right: -2px;
+}
+
 .Badge.New {
   background: limegreen;
 }
