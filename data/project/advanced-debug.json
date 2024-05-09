@@ -3,5 +3,9 @@
     "summary": "Advanced debugging utilites and information for Minecraft.",
     "background": "#053",
     "curseforge": "https://curseforge.com/minecraft/mc-mods/advanced-debug",
-    "modrinth": "https://modrinth.com/mod/advanced-debug"
+    "modrinth": "https://modrinth.com/mod/advanced-debug",
+    "forgeDL": "https://cdn.ultreon.dev/dl/controllerx/ControllerX-20.1.3-forge.jar",
+    "fabricDL": "https://cdn.ultreon.dev/dl/controllerx/ControllerX-20.1.3-fabric.jar",
+    "forgeMCV": "1.20.1",
+    "fabricMCV": "1.20.1"
 }

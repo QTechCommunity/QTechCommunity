@@ -7,5 +7,7 @@
     "neoForgeDL": "https://cdn.ultreon.dev/dl/exit-confirmation/exit-confirmation-neoforge-2.8.0+mc1.20.5.jar",
     "fabricDL": "https://cdn.ultreon.dev/dl/exit-confirmation/exit-confirmation-fabric-2.8.0+mc1.20.5.jar",
     "forgeDL": "https://cdn.ultreon.dev/dl/exit-confirmation/exit-confirmation-forge-2.7.0-DOS-mc.1.20.4.jar",
-    "mcVersion": "1.20.5 (1.20.4 for Forge)"
+    "neoForgeMCV": "1.20.6",
+    "fabricMCV": "1.20.6",
+    "forgeMCV": "1.20.5"
 }

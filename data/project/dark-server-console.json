@@ -3,5 +3,9 @@
     "summary": "A mod that themes Minecraft's Dedicated server console",
     "background": "#111",
     "curseforge": "https://curseforge.com/minecraft/mc-mods/dark-server-console",
-    "modrinth": "https://modrinth.com/mod/dark-server-console"
+    "modrinth": "https://modrinth.com/mod/dark-server-console",
+    "forgeDL": "https://cdn.ultreon.dev/dl/dark-server-console/dark-console-1.0.0-forge.jar",
+    "fabricDL": "https://cdn.ultreon.dev/dl/dark-server-console/dark-console-1.0.0-fabric.jar",
+    "forgeMCV": "1.20.1",
+    "fabricMCV": "1.20.1"
 }

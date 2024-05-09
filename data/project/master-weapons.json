@@ -3,5 +3,11 @@
     "summary": "Adds overpowered weapons and tools to Minecraft.",
     "background": "#bd1500",
     "curseforge": "https://curseforge.com/minecraft/mc-mods/master-weapons",
-    "modrinth": "https://modrinth.com/mod/master-weapons"
+    "modrinth": "https://modrinth.com/mod/master-weapons",
+    "neoForgeDL": "https://cdn.ultreon.dev/dl/master-weapons/master-weapons-neoforge-3.4.0.jar",
+    "fabricDL": "https://cdn.ultreon.dev/dl/master-weapons/master-weapons-fabric-3.4.0.jar",
+    "forgeDL": "https://cdn.ultreon.dev/dl/master-weapons/master-weapons-forge-3.4.0.jar",
+    "neoForgeMCV": "1.20.4",
+    "fabricMCV": "1.20.4",
+    "forgeMCV": "1.20.4"
 }
