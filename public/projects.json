@@ -77,6 +77,13 @@
         "game": "minecraft"
     },
     {
+        "id": "error422",
+        "name": "ERROR422",
+        "summary": "{null}",
+        "category": "mods",
+        "game": "minecraft"
+    },
+    {
         "id": "uc-networking",
         "name": "Ultracraft Networking",
         "summary": "An Ultracraft mod adding improved networking API for mods.",
