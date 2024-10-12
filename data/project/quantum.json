@@ -1,0 +1,8 @@
+{
+    "name": "Quantum Voxel",
+    "summary": "A voxel game made in LibGDX and Java!",
+    "background": "image",
+    "sourceCode": "https://gitlab.com/ultreon/quantum/game",
+    "downloads": "https://github.com/Ultreon/QuantumVoxelReleases/releases",
+    "stage": "alpha"
+}

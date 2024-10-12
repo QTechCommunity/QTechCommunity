@@ -85,10 +85,10 @@
     },
     {
         "id": "uc-networking",
-        "name": "Ultracraft Networking",
-        "summary": "An Ultracraft mod adding improved networking API for mods.",
+        "name": "Quantum Voxel Networking",
+        "summary": "An Quantum Voxel mod adding improved networking API for mods.",
         "category": "mods",
-        "game": "ultracraft"
+        "game": "quantum"
     },
 
 
@@ -96,8 +96,8 @@
 
     
     {
-        "id": "ultracraft",
-        "name": "Ultracraft",
+        "id": "quantum",
+        "name": "Quantum Voxel",
         "summary": "A WIP voxel game aiming to do things differently.",
         "category": "games"
     },
