@@ -86,7 +86,7 @@
     {
         "id": "uc-networking",
         "name": "Quantum Voxel Networking",
-        "summary": "An Quantum Voxel mod adding improved networking API for mods.",
+        "summary": "A Quantum Voxel mod adding improved networking API for mods.",
         "category": "mods",
         "game": "quantum"
     },
@@ -122,12 +122,6 @@
         "id": "notepad-improved",
         "name": "Notepad Improved",
         "summary": "Different take on a notepad app.",
-        "category": "misc"
-    },
-    {
-        "id": "ultreon-browser",
-        "name": "Ultreon Browser",
-        "summary": "A simple webbrowser made in Kotlin using JCEF.",
         "category": "misc"
     },
     {

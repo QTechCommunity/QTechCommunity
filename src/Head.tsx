@@ -257,7 +257,7 @@ function Description(project: PageType) {
 export function Head(project: PageType) {
   let style: React.CSSProperties = {} as React.CSSProperties
   style = { background: "linear-gradient(0deg, #FF4F00, #FF6F00" } as React.CSSProperties;
-  let projectName = "Ultreon Team";
+  let projectName = "Ultreon Studios";
   let projectDescription = "Mods, games and other software";
   let projectIcon = "./data/project/ultreon.png";
   console.log(project);
