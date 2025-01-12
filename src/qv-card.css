@@ -3,14 +3,20 @@
     right: 20px;
     top: 90px;
     background: #0004;
-    border: 1px solid #fff4;
+    border: 1px solid #fff2;
     border-radius: 8px;
     max-width: 400px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
     overflow: hidden;
     font-family: Arial, sans-serif;
     z-index: 100;
     backdrop-filter: blur(8px);
+}
+
+.game-card:hover {
+    background: #0008;
+    border: 1px solid #fff4;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
 .card-header {
@@ -41,10 +47,11 @@
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    border: 2px solid #ff8000
 }
 
 .test-button:hover {
-    background-color: #ffb080;
+    background-color: transparent;
 }
 
 body {
