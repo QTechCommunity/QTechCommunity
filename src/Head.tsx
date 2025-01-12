@@ -261,6 +261,8 @@ export function Head(project: PageType) {
   let projectDescription = "Mods, games and other software";
   let projectIcon = "./data/project/ultreon.png";
   console.log(project);
+  let isProject = false
+  let projectId = null
   if (project instanceof Object) {
     style = {} as React.CSSProperties;
     projectIcon = './data/project/icon-' + project.id + '.png'
@@ -270,8 +272,10 @@ export function Head(project: PageType) {
     } else {
       style.background = project.background;
     }
+    projectId = project.id
     projectName = project.name;
     projectDescription = project.summary;
+    isProject = true
   }
   if (project === 'games') {
     style.background = '#303242'
@@ -317,6 +321,19 @@ export function Head(project: PageType) {
     <>
       <div className='Head' id={window.location.hash.substring(1)} style={style}>
         <div id="Start" className="Section StartPage" style={style}>
+          {!isProject ? (
+            <ul className="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>) : (<></>)}
           <img src="./data/img/arrow.svg" alt="" className="Arrow" />
           <div className="HeroContent">
             <span className="ProjectIcon" style={{background: "url('" + projectIcon + "')"}}></span>
@@ -357,6 +374,21 @@ export function Head(project: PageType) {
       {project === 'games' ? ProjectList(project) : <></>}
       {project === 'mods' ? ProjectList(project) : <></>}
       {project === 'misc' ? ProjectList(project) : <></>}
+      {projectId === "quantum" ? (
+        <div className="game-card">
+            <div className="card-header">
+                <h2>Quantum Voxel: Recomputed</h2>
+            </div>
+            <div className="card-body">
+                <p>Quantum Voxel is being rewritten, and there's currently an in-development version on the Web! The
+                    game is still in development, and your feedback will appreciated!</p>
+                <p><b>Current build:</b> In-Development</p>
+            </div>
+            <div className="card-footer">
+                <a href="https://playqv.ultreon.dev" className="test-button">Test it out</a>
+            </div>
+        </div>
+      ) : (<></>)}
     </>
   );
 }
