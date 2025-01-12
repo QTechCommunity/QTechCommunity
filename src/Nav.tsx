@@ -53,7 +53,7 @@ export function Footer() {
   return (
     <div className="Footer">
       <div className="FooterText">
-        © 2022-2024, Ultreon. All rights reserved.<br/>
+        © 2022-2025, Ultreon. All rights reserved.<br/>
         Links: <a href="https://github.com/Ultreon/ultreon.github.io" className='FooterLink'>Source Code</a> |&nbsp;
         <a href="https://discord.gg/WePT9v2CmQ" className='FooterLink'>Discord</a> |&nbsp;
         <a href="https://github.com/Ultreon" className='FooterLink'>GitHub</a> |&nbsp;
