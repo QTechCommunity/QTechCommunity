@@ -304,14 +304,14 @@ export function Head(project: PageType) {
         <a href="https://discord.gg/WePT9v2CmQ" target="_blank" className="StartButton" rel="noreferrer">
           Discord Server &nbsp;<i className="bi bi-box-arrow-up-right"></i>
         </a>
-        <a href="#games" target="_blank" className="StartButton" rel="noreferrer">
+        <a href="#games" className="StartButton" rel="noreferrer">
           Game List
         </a>
-        <a href="#mods" target="_blank" className="StartButton" rel="noreferrer">
+        <a href="#mods" className="StartButton" rel="noreferrer">
           Mod List
         </a>
         <a href="/app-center" target="_blank" className="StartButton" rel="noreferrer">
-          Download AppCenter
+          Download AppCenter &nbsp;<i className="bi bi-box-arrow-up-right"></i>
         </a>
       </>
     )
